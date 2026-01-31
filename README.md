@@ -54,7 +54,7 @@ In contrast to the [`Float32Array`][@stdlib/array/float32] typed array construct
 ## Usage
 
 ```javascript
-import Float32ArrayLE from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-little-endian-float32@esm/index.mjs';
+import Float32ArrayLE from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-little-endian-float32@v0.1.0-esm/index.mjs';
 ```
 
 #### Float32ArrayLE()
@@ -399,7 +399,7 @@ var str = arr.toString();
 
 import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@esm/index.mjs';
 import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@esm/index.mjs';
-import Float32ArrayLE from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-little-endian-float32@esm/index.mjs';
+import Float32ArrayLE from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-little-endian-float32@v0.1.0-esm/index.mjs';
 
 // Create a typed array by specifying a length:
 var out = new Float32ArrayLE( 3 );
